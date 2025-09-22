@@ -1,0 +1,92 @@
+# .gitignore for a .NET 8 Clean Architecture Solution
+
+# Purpose: This file tells Git which files and folders to ignore in this project.
+# It prevents build artifacts, user-specific settings, and other generated files
+# from being checked into source control.
+
+#-------------------------------------------------------------------
+# User-specific files & IDE settings
+#-------------------------------------------------------------------
+
+# Visual Studio / Rider user-specific files
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Visual Studio code coverage results
+*.coverage
+*.coveragexml
+
+# Visual Studio Code settings
+.vscode/*
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+!.vscode/settings.json
+
+# Rider settings
+.idea/
+
+#-------------------------------------------------------------------
+# .NET Build Artifacts
+#-------------------------------------------------------------------
+
+# Binaries, libraries, and other build outputs
+[Bb]in/
+[Oo]bj/
+
+# Publishing output
+[Pp]ublish/
+[Rr]elease/
+[Rr]eleases/
+
+# NuGet packages folder (for older project styles)
+packages/
+
+# Test results and reports
+TestResults/
+*.trx
+
+# Log files
+*.log
+logs/
+
+#-------------------------------------------------------------------
+# Secrets and Environment Configuration
+#-------------------------------------------------------------------
+
+# User Secrets are stored outside the project directory by default,
+# but if a local secrets.json is ever created, ignore it.
+secrets.json
+
+# Environment-specific configuration files that might contain secrets
+appsettings.*.json
+!appsettings.Development.json
+!appsettings.Staging.json
+!appsettings.Production.json
+
+# Local environment configuration file (often used for overrides)
+.env
+
+#-------------------------------------------------------------------
+# OS-generated files
+#-------------------------------------------------------------------
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+ehthumbs_vista.db
+*.lnk
+
+#-------------------------------------------------------------------
+# Other
+#-------------------------------------------------------------------
+
+# Output from dotnet-ef tools
+efpt.config.json
