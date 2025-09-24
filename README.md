@@ -138,7 +138,7 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE.md) fi
 
 ### 👤 Author & Contact
 
-This project was built by **[Your Name]**. I'm passionate about building professional, scalable applications with modern .NET and AI.
+This project was built by **Nitin Garg**. I'm passionate about building professional, scalable applications with modern .NET and AI.
 
 I share my learning journey, tutorials, and deep dives into software architecture on my YouTube channel. If you found this project helpful, consider checking it out!
 
